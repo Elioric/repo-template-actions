@@ -1,0 +1,8 @@
+name: Install Dependencies
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install dependencies
+        run: echo Hello World!
